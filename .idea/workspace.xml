@@ -1,7 +1,424 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a67b1a46-526d-4337-bd12-199b6b9c11d7" name="Default" comment="" />
+    <list default="true" id="a67b1a46-526d-4337-bd12-199b6b9c11d7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sentiment analysis/.idea/final_sentiment original.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk-3.2.5.dist-info/DESCRIPTION.rst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk-3.2.5.dist-info/INSTALLER" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk-3.2.5.dist-info/METADATA" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk-3.2.5.dist-info/RECORD" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk-3.2.5.dist-info/WHEEL" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk-3.2.5.dist-info/metadata.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk-3.2.5.dist-info/top_level.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/VERSION" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/chartparser_app.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/chunkparser_app.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/collocations_app.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/concordance_app.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/nemo_app.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/rdparser_app.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/srparser_app.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/wordfreq_app.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/app/wordnet_app.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/book.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/ccg/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/ccg/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/ccg/chart.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/ccg/combinator.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/ccg/lexicon.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/ccg/logic.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chat/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chat/eliza.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chat/iesha.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chat/rude.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chat/suntsu.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chat/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chat/zen.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chunk/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chunk/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chunk/named_entity.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chunk/regexp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/chunk/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/decisiontree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/maxent.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/megam.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/naivebayes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/positivenaivebayes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/rte_classify.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/scikitlearn.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/senna.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/svm.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/tadm.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/textcat.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/classify/weka.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/cluster/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/cluster/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/cluster/em.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/cluster/gaac.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/cluster/kmeans.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/cluster/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/collections.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/collocations.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/compat.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/europarl_raw.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/aligned.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/bnc.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/bracket_parse.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/categorized_sents.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/chasen.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/childes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/chunked.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/cmudict.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/comparative_sents.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/conll.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/crubadan.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/dependency.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/framenet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/ieer.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/indian.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/ipipan.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/knbc.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/lin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/mte.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/nkjp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/nombank.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/nps_chat.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/opinion_lexicon.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/panlex_lite.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/pl196x.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/plaintext.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/ppattach.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/propbank.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/pros_cons.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/reviews.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/rte.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/semcor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/senseval.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/sentiwordnet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/sinica_treebank.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/string_category.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/switchboard.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/tagged.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/timit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/toolbox.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/twitter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/udhr.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/verbnet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/wordlist.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/wordnet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/xmldocs.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/reader/ycoe.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/corpus/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/data.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/decorators.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/downloader.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/draw/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/draw/cfg.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/draw/dispersion.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/draw/table.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/draw/tree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/draw/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/featstruct.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/grammar.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/help.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/inference/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/inference/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/inference/discourse.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/inference/mace.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/inference/nonmonotonic.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/inference/prover9.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/inference/resolution.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/inference/tableau.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/internals.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/jsontags.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/lazyimport.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/agreement.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/aline.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/association.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/confusionmatrix.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/distance.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/paice.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/scores.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/segmentation.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/metrics/spearman.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/misc/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/misc/babelfish.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/misc/chomsky.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/misc/minimalset.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/misc/sort.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/misc/wordfinder.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/bllip.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/chart.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/corenlp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/dependencygraph.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/earleychart.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/evaluate.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/featurechart.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/generate.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/malt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/nonprojectivedependencyparser.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/pchart.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/projectivedependencyparser.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/recursivedescent.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/shiftreduce.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/stanford.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/transitionparser.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/parse/viterbi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/probability.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/boxer.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/chat80.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/cooper_storage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/drt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/drt_glue_demo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/evaluate.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/glue.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/hole.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/lfg.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/linearlogic.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/logic.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/relextract.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/skolemize.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sem/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sentiment/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sentiment/sentiment_analyzer.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sentiment/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/sentiment/vader.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/arlstem.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/isri.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/lancaster.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/porter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/regexp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/rslp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/snowball.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/stem/wordnet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/brill.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/brill_trainer.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/crf.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/hmm.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/hunpos.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/mapping.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/perceptron.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/senna.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/sequential.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/stanford.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/tnt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tag/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tbl/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tbl/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tbl/demo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tbl/erroranalysis.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tbl/feature.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tbl/rule.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tbl/template.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/all.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/bleu.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/bnc.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/ccg.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/ccg_semantics.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/chat80.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/childes.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/childes_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/chunk.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/classify.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/classify_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/collocations.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/compat.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/compat_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/corpus.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/corpus_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/crubadan.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/data.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/dependency.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/discourse.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/discourse_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/doctest_nose_plugin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/drt.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/featgram.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/featstruct.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/framenet.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/generate.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/gensim.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/gensim_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/gluesemantics.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/gluesemantics_malt.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/gluesemantics_malt_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/grammar.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/grammartestsuites.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/index.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/inference.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/inference_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/internals.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/japanese.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/logic.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/metrics.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/misc.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/nonmonotonic.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/nonmonotonic_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/paice.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/parse.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/portuguese_en.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/portuguese_en_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/probability.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/probability_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/propbank.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/relextract.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/resolution.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/runtests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/segmentation_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/semantics.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/semantics_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/sentiment.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/sentiwordnet.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/simple.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/stem.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/tag.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/tokenize.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/toolbox.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/translate.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/translate_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/tree.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/treeprettyprinter.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/treetransforms.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_2x_compat.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_aline.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_chunk.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_classify.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_collocations.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_corenlp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_corpora.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_corpus_views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_hmm.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_json2csv_corpus.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_naivebayes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_seekable_unicode_stream_reader.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_senna.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_stem.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_tag.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_tgrep.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_tokenize.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_twitter_auth.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/test_wordnet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/translate/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/translate/test_bleu.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/translate/test_ibm1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/translate/test_ibm2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/translate/test_ibm3.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/translate/test_ibm4.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/translate/test_ibm5.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/translate/test_ibm_model.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/translate/test_stack_decoder.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/utils.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/util.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/wordnet.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/wordnet_fixt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/wordnet_lch.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/wsd.doctest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/text.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tgrep.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/casual.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/moses.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/mwe.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/nist.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/punkt.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/regexp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/repp.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/sexpr.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/simple.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/stanford.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/stanford_segmenter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/texttiling.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/toktok.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/treebank.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tokenize/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/toolbox.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/bleu_score.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/chrf_score.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/gale_church.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/gdfa.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/gleu_score.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/ibm1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/ibm2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/ibm3.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/ibm4.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/ibm5.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/ibm_model.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/metrics.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/nist_score.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/phrase_based.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/ribes_score.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/translate/stack_decoder.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/tree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/treeprettyprinter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/treetransforms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/twitter/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/twitter/api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/twitter/common.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/twitter/twitter_demo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/twitter/twitterclient.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/twitter/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/wsd.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/(1).idea/encodings.xml" afterPath="$PROJECT_DIR$/sentiment analysis/(1).idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/(1).idea/final_sentiment (1).iml" afterPath="$PROJECT_DIR$/sentiment analysis/(1).idea/final_sentiment (1).iml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/(1).idea/misc (1).xml" afterPath="$PROJECT_DIR$/sentiment analysis/(1).idea/misc (1).xml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/(1).idea/modules (1).xml" afterPath="$PROJECT_DIR$/sentiment analysis/(1).idea/modules (1).xml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/(1).idea/workspace (1).xml" afterPath="$PROJECT_DIR$/sentiment analysis/(1).idea/workspace (1).xml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/.idea/encodings.xml" afterPath="$PROJECT_DIR$/sentiment analysis/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/.idea/final_sentiment original.iml" afterPath="$PROJECT_DIR$/.idea/FOREX.iml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/.idea/misc.xml" afterPath="$PROJECT_DIR$/sentiment analysis/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/.idea/modules.xml" afterPath="$PROJECT_DIR$/sentiment analysis/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/.idea/workspace.xml" afterPath="$PROJECT_DIR$/sentiment analysis/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/a.csv" afterPath="$PROJECT_DIR$/sentiment analysis/a.csv" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/afinn.csv" afterPath="$PROJECT_DIR$/sentiment analysis/afinn.csv" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/b.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/c.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/final.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/final2.py" afterPath="$PROJECT_DIR$/sentiment analysis/main.py" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/graph.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/initial_new.py" afterPath="$PROJECT_DIR$/sentiment analysis/initial_new.py" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/la.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/lo.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/negation" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/negative.csv" afterPath="$PROJECT_DIR$/sentiment analysis/negative.csv" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/overalltweets.csv" afterPath="$PROJECT_DIR$/sentiment analysis/overalltweets.csv" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/positive.csv" afterPath="$PROJECT_DIR$/sentiment analysis/positive.csv" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/stopwords" afterPath="$PROJECT_DIR$/sentiment analysis/stopwords" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/tweetwithlabels.csv" afterPath="$PROJECT_DIR$/sentiment analysis/tweetwithlabels.csv" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/tweetwolabels.csv" afterPath="$PROJECT_DIR$/sentiment analysis/tweetwolabels.csv" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/x" afterPath="$PROJECT_DIR$/venv/lib/python3.4/site-packages/nltk/test/unit/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/y" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/final_sentiment original/z" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,8 +428,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tech/tests.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment analysis/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="401" column="14" lean-forward="false" selection-start-line="401" selection-start-column="11" selection-end-line="401" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stopwords" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment analysis/stopwords">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -21,24 +450,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webcrawler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tech/webcrawler.py">
+      <file leaf-file-name="positive.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment analysis/positive.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1692">
-              <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webcrawler.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prediction/webcrawler.py">
+      <file leaf-file-name="overalltweets.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment analysis/overalltweets.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="147">
+              <caret line="50" column="3" lean-forward="false" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="initial_new.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment analysis/initial_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="afinn.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment analysis/afinn.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sentiment analysis/a.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="negative.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment analysis/negative.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,15 +542,21 @@
       <find>fundamental analysi</find>
       <find>feed</find>
       <find>store</find>
+      <find>fina</find>
+      <find>#</find>
+      <find>print</find>
+      <find>a.csv</find>
+      <find>c.csv</find>
+      <find>mat</find>
+      <find>negation</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/predict/admin.py" />
-        <option value="$PROJECT_DIR$/predict/urls.py" />
-        <option value="$PROJECT_DIR$/poll/urls.py" />
-        <option value="$PROJECT_DIR$/poll/models.py" />
         <option value="$PROJECT_DIR$/poll/static/poll/abc.css" />
         <option value="$PROJECT_DIR$/poll/aa.py" />
         <option value="$PROJECT_DIR$/poll/webcrawler.py" />
@@ -129,6 +604,10 @@
         <option value="$PROJECT_DIR$/tech/technical_pre.py" />
         <option value="$PROJECT_DIR$/tech/webcrawler.py" />
         <option value="$PROJECT_DIR$/prediction/webcrawler.py" />
+        <option value="$PROJECT_DIR$/sentiment analysis/final.py" />
+        <option value="$PROJECT_DIR$/sentiment analysis/final2.py" />
+        <option value="$PROJECT_DIR$/sentiment analysis/main.py" />
+        <option value="$PROJECT_DIR$/sentiment analysis/negation" />
       </list>
     </option>
   </component>
@@ -157,6 +636,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -172,24 +652,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Major Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Major Project" type="462c0819:PsiDirectoryNode" />
+              <item name="FOREX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FOREX" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Major Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Major Project" type="462c0819:PsiDirectoryNode" />
-              <item name="prediction" type="462c0819:PsiDirectoryNode" />
+              <item name="FOREX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FOREX" type="462c0819:PsiDirectoryNode" />
+              <item name="sentiment analysis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,8 +704,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.webcrawler (2)">
-    <configuration name="initial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.final">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FOREX" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="voting" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="final" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentiment analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FOREX" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment analysis/final.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="final2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentiment analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FOREX" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment analysis/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="initial" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -297,24 +849,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="voting" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,7 +859,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="voting" />
-      <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -344,21 +877,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration name="Unittests in final2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/final_sentiment original" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="voting" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/final_sentiment original/final2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,20 +892,22 @@
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.initial" />
-      <item index="1" class="java.lang.String" itemvalue="Python.technical_pre (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.webcrawler (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in final2.py" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Python.initial" />
+      <item index="2" class="java.lang.String" itemvalue="Python.technical_pre (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.webcrawler (2)" />
       <item index="4" class="java.lang.String" itemvalue="Python.technical_training" />
+      <item index="5" class="java.lang.String" itemvalue="Python.final" />
+      <item index="6" class="java.lang.String" itemvalue="Python.final2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.webcrawler (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.technical_pre (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.technical_training" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in final2.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.initial" />
+        <item index="0" class="java.lang.String" itemvalue="Python.final" />
+        <item index="1" class="java.lang.String" itemvalue="Python.final2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.webcrawler (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.technical_pre (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.technical_training" />
       </list>
     </recent_temporary>
   </component>
@@ -445,20 +965,20 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30125195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36628848" sideWeight="0.20892018" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32357723" sideWeight="0.51251954" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32357723" sideWeight="0.48748043" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36585367" sideWeight="0.786385" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36628848" sideWeight="0.7910798" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32512316" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -518,99 +1038,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/voting/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech/static/tech/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/templates/prediction/train.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech/templates/tech/train.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/graph1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech/static/tech/images/fig2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech/static/tech/images/fig2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech/static/tech/images/fig2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech/templates/tech/im.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="67" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/static/prediction/images/ig1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/templates/prediction/iq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/abcde.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/ig2.png" />
-    <entry file="file://$PROJECT_DIR$/tech/fig12.png" />
-    <entry file="file://$PROJECT_DIR$/prediction/testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="138" column="8" lean-forward="true" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prediction/initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -632,20 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final_sentiment original/overalltweets.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="50" column="3" lean-forward="false" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final_sentiment original/afinn.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41773">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prediction/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -659,20 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="328" column="4" lean-forward="false" selection-start-line="328" selection-start-column="4" selection-end-line="328" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final_sentiment original/final2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4411">
-          <caret line="432" column="8" lean-forward="false" selection-start-line="432" selection-start-column="8" selection-end-line="432" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final_sentiment original/final.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -841,15 +1240,179 @@
         <state relative-caret-position="271">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tech/webcrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1692">
+        <state relative-caret-position="0">
           <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/b.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/c.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/z">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/lo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/la.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.4/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.4/site-packages/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/negation">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/y">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/stopwords">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/positive.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/overalltweets.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="50" column="3" lean-forward="false" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/negative.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="401" column="14" lean-forward="false" selection-start-line="401" selection-start-column="11" selection-end-line="401" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/initial_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/afinn.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment analysis/a.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
