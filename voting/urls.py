@@ -11,7 +11,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^prediction/', include('prediction.urls')),
-    url(r'^tech/', include('tech.urls')),
+    url(r'^backpropagation/', include('backpropagation.urls')),
 
 ]
 

@@ -42,7 +42,7 @@ def create_table():
 def abc():
     global final_data
     final_data=[]
-    fname = join(dirname(dirname(abspath(__file__))), 'tech', 'technicaldata.xls')
+    fname = join(dirname(dirname(abspath(__file__))), 'backpropagation', 'technicaldata.xls')
     workbook = xlrd.open_workbook(fname)
 
     sheet = workbook.sheet_by_index(0)
@@ -72,7 +72,7 @@ def import_data():
     past_data = []
     global target
     target = []
-    fname = join(dirname(dirname(abspath(__file__))), 'tech', 'technicaldata.xls')
+    fname = join(dirname(dirname(abspath(__file__))), 'backpropagation', 'technicaldata.xls')
     workbook = xlrd.open_workbook(fname)
     sheet = workbook.sheet_by_index(0)
     list_data = []
@@ -103,7 +103,7 @@ def import_target():
     global target123
 
     target123 = []
-    fname = join(dirname(dirname(abspath(__file__))), 'tech', 'technicaldata.xls')
+    fname = join(dirname(dirname(abspath(__file__))), 'backpropagation', 'technicaldata.xls')
     workbook = xlrd.open_workbook(fname)
 
     sheet = workbook.sheet_by_index(0)
@@ -291,7 +291,7 @@ norm_datas = s1.normalize(average_datas)
 #min max and normalization for target
 norm_target = s1.norm_target1(target)
 
-from tech import technical_training
+from backpropagation import technical_training
 c = technical_training.neuralnet(4,8,1)
 
 
@@ -463,7 +463,7 @@ a=abc11()
 
 
 
-fname = join(dirname(dirname(abspath(__file__))), 'tech', 'technicaldata.xls')
+fname = join(dirname(dirname(abspath(__file__))), 'backpropagation', 'technicaldata.xls')
 workbook1 = xlrd.open_workbook(fname)
 asd1=[]
 sheet = workbook1.sheet_by_index(0)

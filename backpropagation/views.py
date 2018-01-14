@@ -13,7 +13,7 @@ def index(request):
 
     all_data = data1.objects.all()
 
-    template = loader.get_template('tech/index.html')
+    template = loader.get_template('backpropagation/index.html')
     a2 = []
 
     for data1 in reversed(all_data):
@@ -83,7 +83,7 @@ def crawlera(request):
     # return HttpResponse("wait")
 
 def traina(request):
-    template = loader.get_template('tech/train.html')
+    template = loader.get_template('backpropagation/train.html')
     a2 = "abc"
     img = {
         'all_data': a2,
@@ -99,7 +99,7 @@ def abca(request):
 
     all_data = data1.objects.all()
 
-    template = loader.get_template('tech/im.html')
+    template = loader.get_template('backpropagation/im.html')
 
     a2 = [123]
 

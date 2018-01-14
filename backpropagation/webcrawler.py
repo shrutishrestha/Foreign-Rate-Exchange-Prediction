@@ -17,7 +17,7 @@ from xlrd import open_workbook # http://pypi.python.org/pypi/xlrd
 from xlwt import easyxf # http://pypi.python.org/pypi/xlwt
 
 def import_data():
-    fname = join(dirname(dirname(abspath(__file__))), 'tech', 'technicaldata.xls')
+    fname = join(dirname(dirname(abspath(__file__))), 'backpropagation', 'technicaldata.xls')
     workbook = xlrd.open_workbook(fname)
 
     sheet = workbook.sheet_by_index(0)
@@ -28,7 +28,7 @@ def import_data():
 
 
 def update(new_date, low1, open1, high1,close1):
-    fname = join(dirname(dirname(abspath(__file__))), 'tech', 'technicaldata.xls')
+    fname = join(dirname(dirname(abspath(__file__))), 'backpropagation', 'technicaldata.xls')
     rb = xlrd.open_workbook(fname)
     r_sheet = rb.sheet_by_index(0)
     r = r_sheet.nrows
@@ -40,7 +40,7 @@ def update(new_date, low1, open1, high1,close1):
     sheet.write(r, 3, high1)
     sheet.write(r, 4, close1)
 
-    wb.save('C:/Users/Swechya/PycharmProjects/voting/tech/technicaldata.xls')
+    wb.save('C:/Users/Swechya/PycharmProjects/voting/backpropagation/technicaldata.xls')
     rb.release_resources()
     del rb
 
