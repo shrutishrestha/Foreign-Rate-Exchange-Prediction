@@ -47,6 +47,7 @@ def index(request):
 
 
 def crawler(request):
+<<<<<<< HEAD
     # from . import webcrawler
     #
     # # obj = webcrawler.abc()
@@ -54,10 +55,20 @@ def crawler(request):
 
     # obj12 = webcrawler.abc()
     # check = obj12.check1()
+=======
+    from . import webcrawler
+
+    # obj = webcrawler.abc()
+    # obj.extract()
+
+    obj12 = webcrawler.abc()
+    check = obj12.check1()
+>>>>>>> 78fd1182ea3d7aa4d4e2e74025f0d9df075fc991
 
     from . import initial
 
     #storing only last dvata
+<<<<<<< HEAD
     # a=data()
     # obj1 = initial.abc11()
     # abc = obj1.finaldata()
@@ -85,6 +96,34 @@ def crawler(request):
     #     a.save()
 
     html="<h1>Training and testing of the model is done successfully</h1>"
+=======
+    a=data()
+    obj1 = initial.abc11()
+    abc = obj1.finaldata()
+
+    all_data = data.objects.all()
+
+    for data1 in all_data:
+        date1 =  data1.date
+
+
+    if (check == date1):
+        html = "<h1>Data is upto date</h1>"
+
+    else:
+
+        print("total datas")
+        j = 0
+        a.date = abc[0]
+        a.gold = abc[1]
+        a.nasdaq = abc[2]
+        a.oil = abc[3]
+        a.usdnpr = abc[4]
+        a.predicate = abc[5]
+        html = "<h1>Data stored sucessfully</h1>"
+        a.save()
+
+>>>>>>> 78fd1182ea3d7aa4d4e2e74025f0d9df075fc991
     return HttpResponse(html)
     # return HttpResponse("wait")
 

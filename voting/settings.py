@@ -31,7 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     'tech.apps.TechConfig',
+=======
+    'backpropagation.apps.TechConfig',
+>>>>>>> 78fd1182ea3d7aa4d4e2e74025f0d9df075fc991
     'prediction.apps.PredictionConfig',
     'django.contrib.admin',
     'django.contrib.auth',

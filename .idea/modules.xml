@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/FOREX.iml" filepath="$PROJECT_DIR$/.idea/FOREX.iml" />
+>>>>>>> 78fd1182ea3d7aa4d4e2e74025f0d9df075fc991
       <module fileurl="file://$PROJECT_DIR$/.idea/voting.iml" filepath="$PROJECT_DIR$/.idea/voting.iml" />
     </modules>
   </component>

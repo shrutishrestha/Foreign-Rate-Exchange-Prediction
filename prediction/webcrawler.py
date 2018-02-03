@@ -2,12 +2,15 @@ from __future__ import print_function
 from os.path import join, dirname, abspath
 
 
+<<<<<<< HEAD
 import xlrd
 import xlwt
 from xlutils.copy import copy
 
 
 
+=======
+>>>>>>> 78fd1182ea3d7aa4d4e2e74025f0d9df075fc991
 from html.parser import HTMLParser
 import urllib.request
 import xlrd
@@ -29,6 +32,7 @@ def import_data():
 def update(d,g,n,o,u):
 
     fname = join(dirname(dirname(abspath(__file__))), 'prediction', 'trainingdata.xls')
+<<<<<<< HEAD
     rb = xlrd.open_workbook(fname)
     r_sheet = rb.sheet_by_index(0)
     r = r_sheet.nrows
@@ -41,6 +45,25 @@ def update(d,g,n,o,u):
     sheet.write(r, 4, u)
     wb.save('C:/Users/Swechya/PycharmProjects/Major Project/prediction/trainingdata.xls')
 
+=======
+    rb = xlrd.open_workbook(fname)#read garney object
+    r_sheet = rb.sheet_by_index(0)#read garney in sheet by index 0
+    r = r_sheet.nrows#geting the rows in r_sheet
+    wb = copy(rb)#write garney object
+    sheet = wb.get_sheet(0)#write garna lai sheet 0 liney
+    sheet.write(r+1, 0, d)
+    sheet.write(r+1, 1, g)
+    sheet.write(r+1, 2, n)
+    sheet.write(r+1, 3, o)
+    sheet.write(r+1, 4, u)
+    print("---------------")
+    print(r)
+
+    print(d)
+
+    wb.save('/home/shruti/major project/FOREX/trainingdata.xls')
+    print("done saving");
+>>>>>>> 78fd1182ea3d7aa4d4e2e74025f0d9df075fc991
     rb.release_resources()
     del rb
 
@@ -102,11 +125,23 @@ print ("Extracting the data from investing.com for fundamental analysis....")
 target = 'https://www.investing.com/commodities/gold-historical-data'
 req = urllib.request.Request(url=target, data=None, headers={'User-Agent': 'Mozilla/5.0'})
 f = urllib.request.urlopen(req)
+<<<<<<< HEAD
 xhtml = f.read().decode('utf-8')
 # instantiate the parser and feed it
 p = HTMLTableParser()
 p.feed(xhtml)
 a=p.tables
+=======
+xhtml = f.read().decode('utf-8')#xhtml ma page ko bhahye bhar ko data aunxa
+# instantiate the parser and feed it
+p = HTMLTableParser()#p is an instance of htmltableparser
+p.feed(xhtml)#giving every parsed to p
+print("p-----")
+print(p)
+a=p.tables#page bata tables nikalaney
+print("a========")
+print(a)
+>>>>>>> 78fd1182ea3d7aa4d4e2e74025f0d9df075fc991
 print ("Extracted data from investing.com....")
 print("Date.........")
 new_date = a[3][1][0]
@@ -118,7 +153,13 @@ a = new_gold.replace(',', '')
 ab = float(a)
 new_gold = ab
 
+<<<<<<< HEAD
 store_date = import_data()
+=======
+store_date = import_data()#last date auncha of stored table coz xa bhanney check garnu pardaina feri ..tei dekhaunney ho
+print("store_date")
+print(store_date)
+>>>>>>> 78fd1182ea3d7aa4d4e2e74025f0d9df075fc991
 
 target = 'https://www.investing.com/currencies/usd-npr-historical-data'
 req = urllib.request.Request(url=target, data=None, headers={'User-Agent': 'Mozilla/5.0'})

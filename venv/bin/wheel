@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!"/home/shruti/Major Project/venv/bin/python3.4"
+=======
+#!"/home/shruti/Downloads/Major Project/venv/bin/python3.4"
+>>>>>>> 78fd1182ea3d7aa4d4e2e74025f0d9df075fc991
 
 # -*- coding: utf-8 -*-
 import re
